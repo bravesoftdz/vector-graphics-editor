@@ -1,0 +1,43 @@
+object FormAbout: TFormAbout
+  Left = 784
+  Height = 240
+  Top = 314
+  Width = 320
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'О программе'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.6.4.0'
+  object LabelAbout: TLabel
+    Left = 13
+    Height = 78
+    Top = 50
+    Width = 295
+    Caption = 'Бесплатный аналог фотошопа'#13#10'с немного урезанным '#13#10'функционалом.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clPurple
+    Font.Height = -21
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelAuthor: TLabel
+    Left = 54
+    Height = 38
+    Top = 180
+    Width = 212
+    Caption = 'Василенко Иван, Б8103б, 2017.'#13#10'Все права защищены (нет).'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+end

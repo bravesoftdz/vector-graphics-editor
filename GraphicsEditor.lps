@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="GraphicsEditor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="29" Y="10"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unitmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitMain"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="55"/>
+        <CursorPos X="60" Y="77"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unitabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\fpc\3.0.2\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="4" Y="27"/>
+        <UsageCount Value="12"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="110" Column="10" TopLine="64"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="43" Column="12" TopLine="31"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="110" Column="22" TopLine="64"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="111" Column="41" TopLine="66"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="89" Column="72" TopLine="66"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="90" Column="72" TopLine="78"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="113" Column="39" TopLine="67"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="112" Column="48" TopLine="67"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="111" Column="28" TopLine="68"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="113" Column="5" TopLine="69"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="77" Column="15" TopLine="50"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="94" Column="15" TopLine="67"/>
+      </Position12>
+      <Position13>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="105" Column="15" TopLine="73"/>
+      </Position13>
+      <Position14>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="124" Column="15" TopLine="73"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="113" Column="6" TopLine="69"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="115" Column="35" TopLine="70"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="26" Column="81"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="109" Column="3" TopLine="62"/>
+      </Position18>
+      <Position19>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="29" Column="7" TopLine="12"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="98" TopLine="67"/>
+      </Position20>
+      <Position21>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="93" Column="22" TopLine="33"/>
+      </Position21>
+      <Position22>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="82" Column="48" TopLine="54"/>
+      </Position22>
+      <Position23>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="72" Column="27" TopLine="58"/>
+      </Position23>
+      <Position24>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="98" Column="78" TopLine="49"/>
+      </Position24>
+      <Position25>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="97" Column="26" TopLine="52"/>
+      </Position25>
+      <Position26>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="98" Column="36" TopLine="52"/>
+      </Position26>
+      <Position27>
+        <Filename Value="GraphicsEditor.lpr"/>
+        <Caret Line="10" Column="18" TopLine="5"/>
+      </Position27>
+      <Position28>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="94" Column="125" TopLine="52"/>
+      </Position28>
+      <Position29>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="52" Column="29" TopLine="41"/>
+      </Position29>
+      <Position30>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="43" Column="12" TopLine="10"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkAddress"/>
+        <Address Value="172633"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
