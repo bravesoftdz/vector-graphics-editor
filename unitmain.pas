@@ -63,26 +63,33 @@ end;
 procedure TFormMain.PaintBoxMainMouseDown(Sender: TObject;
   Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
 begin
-  setLength(lines, high(lines) + 2);
-  if (ssLeft in Shift) then isDrawing := true;
 
-  PaintBoxMain.Invalidate;
+  if (ssLeft in Shift) then begin
+    isDrawing := true;
+    setLength(lines, high(lines) + 2);
+  end;
+
+ PaintBoxMain.Invalidate;
 end;
 
 procedure TFormMain.PaintBoxMainMouseMove(Sender: TObject; Shift: TShiftState;
   X, Y: Integer);
 
+var
+  outPaintBox: boolean;
+
 begin
-  if (isDrawing)
-  and not ((x > PaintBoxMain.Width) or (y > PaintBoxMain.Height)) then begin
+  outPaintBox := (x > PaintBoxMain.Width) or (y > PaintBoxMain.Height) or
+                 (x < PaintBoxMain.Left) or (y < PaintBoxMain.Top);
+
+  if (isDrawing) and (not outPaintBox) then begin
     setLength(lines[high(lines)], high(lines[high(lines)]) + 2);
     lines[high(lines), high(lines[high(lines)])].x := x;
     lines[high(lines), high(lines[high(lines)])].y := y;
   end;
 
-  if (x > PaintBoxMain.Width) or (y > PaintBoxMain.Height) then begin
-    setLength(lines, high(lines) + 2);
-  end;
+  if (outPaintBox) and (high(lines[high(lines)]) <> -1) then
+  setLength(lines, high(lines) + 2);
 
   PaintBoxMain.Invalidate;
 end;
