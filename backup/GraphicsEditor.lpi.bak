@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="5">
       <Unit0>
         <Filename Value="GraphicsEditor.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -53,6 +53,16 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="unitfigures.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitFigures"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="unittools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitTools"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

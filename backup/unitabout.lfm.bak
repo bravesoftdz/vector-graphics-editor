@@ -1,13 +1,14 @@
 object FormAbout: TFormAbout
-  Left = 784
+  Left = 204
   Height = 240
-  Top = 314
+  Top = 681
   Width = 320
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'О программе'
   ClientHeight = 240
   ClientWidth = 320
+  Position = poDesktopCenter
   LCLVersion = '1.6.4.0'
   object LabelAbout: TLabel
     Left = 13

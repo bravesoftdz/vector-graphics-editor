@@ -1,7 +1,7 @@
 object FormMain: TFormMain
-  Left = 595
+  Left = 579
   Height = 442
-  Top = 258
+  Top = 226
   Width = 668
   Caption = 'Graphics Editor'
   ClientHeight = 422
@@ -144,18 +144,27 @@ object FormMain: TFormMain
     0000
   }
   Menu = MainMenu
+  OnCreate = FormCreate
   Position = poDesktopCenter
   LCLVersion = '1.6.4.0'
   object PaintBoxMain: TPaintBox
-    Left = 0
+    Left = 100
     Height = 422
     Top = 0
-    Width = 668
+    Width = 568
     Align = alClient
     OnMouseDown = PaintBoxMainMouseDown
     OnMouseMove = PaintBoxMainMouseMove
     OnMouseUp = PaintBoxMainMouseUp
     OnPaint = PaintBoxMainPaint
+  end
+  object PanelTools: TPanel
+    Left = 0
+    Height = 422
+    Top = 0
+    Width = 100
+    Align = alLeft
+    TabOrder = 0
   end
   object MainMenu: TMainMenu
     left = 104
@@ -165,6 +174,23 @@ object FormMain: TFormMain
       object MenuItemExit: TMenuItem
         Caption = 'Выход'
         OnClick = MenuItemExitClick
+      end
+    end
+    object MenuItemEdit: TMenuItem
+      Caption = 'Правка'
+      object MenuItemUndo: TMenuItem
+        Caption = 'Отменить'
+        ShortCut = 16474
+        OnClick = MenuItemUndoClick
+      end
+      object MenuItemRedo: TMenuItem
+        Caption = 'Вернуть'
+        ShortCut = 16473
+        OnClick = MenuItemRedoClick
+      end
+      object MenuItemClear: TMenuItem
+        Caption = 'Очистить'
+        OnClick = MenuItemClearClick
       end
     end
     object MenuItemInfo: TMenuItem
