@@ -56,12 +56,12 @@
       <Unit3>
         <Filename Value="unitfigures.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="UnitFigures"/>
+        <UnitName Value="unitFigures"/>
       </Unit3>
       <Unit4>
         <Filename Value="unittools.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="UnitTools"/>
+        <UnitName Value="unitTools"/>
       </Unit4>
     </Units>
   </ProjectOptions>

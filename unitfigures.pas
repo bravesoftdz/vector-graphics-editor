@@ -80,11 +80,13 @@ end;
 
 Procedure TRectangle.Draw(Canvas: TCanvas);
 begin
+  Canvas.Brush.Style := bsClear;
   Canvas.Rectangle(StartPoint.x, StartPoint.y, NextPoint.x, NextPoint.y)
 end;
 
 Procedure TEllipse.Draw(Canvas: TCanvas);
 begin
+  Canvas.Brush.Style := bsClear;
   Canvas.Ellipse(StartPoint.x, StartPoint.y, NextPoint.x, NextPoint.y);
 end;
 

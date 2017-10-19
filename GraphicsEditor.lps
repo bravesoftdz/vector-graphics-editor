@@ -41,8 +41,10 @@
         <Filename Value="unitfigures.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitFigures"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="41" Y="53"/>
+        <TopLine Value="40"/>
+        <CursorPos X="33" Y="89"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -50,9 +52,8 @@
         <Filename Value="unittools.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitTools"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="2" Y="10"/>
+        <CursorPos X="38" Y="7"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit4>
@@ -205,11 +206,11 @@
       </Position28>
       <Position29>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="67" Column="60" TopLine="115"/>
+        <Caret Line="155" Column="7" TopLine="114"/>
       </Position29>
       <Position30>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="155" Column="7" TopLine="114"/>
+        <Filename Value="unitfigures.pas"/>
+        <Caret Line="83" Column="33" TopLine="39"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
