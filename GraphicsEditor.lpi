@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="6">
       <Unit0>
         <Filename Value="GraphicsEditor.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -63,6 +63,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitTools"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="unitscale.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitScale"/>
+      </Unit5>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

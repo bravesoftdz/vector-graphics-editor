@@ -1,4 +1,4 @@
-unit UnitTools;
+unit unitTools;
 
 {$mode objfpc}{$H+}
 
@@ -30,6 +30,7 @@ end;
 
 initialization
 
+RegisterTool(TTool.Create, THandle, 'Рука');
 RegisterTool(TTool.Create, TPolyline, 'Карандаш');
 RegisterTool(TTool.Create, TLine, 'Прямая');
 RegisterTool(TTool.Create, TRectangle, 'Прямоугольник');
